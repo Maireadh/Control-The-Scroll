@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\.."
+	},
+	{
+		"path": "..\\..\\..\\..\\Git Practice"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "html-css-course-master"
+  }
+}

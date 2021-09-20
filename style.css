@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* h2 and h3 do not show up on the programming page as the sans-serif font, but shouldn't they, since I included them in the selector?*/
+
+p,
+li {
+  font-family: serif;
+}
+h1 {
+  color: red;
+
+  text-transform: uppercase;
+  line-height: 0.5;
+}
+
+h4 {
+  color: black;
+  line-height: 0.5;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
