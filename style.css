@@ -89,6 +89,7 @@ ul {
 a:link {
   color: #28aab6;
   text-decoration: none;
+  font-size: 20px;
 }
 
 a:visited {
