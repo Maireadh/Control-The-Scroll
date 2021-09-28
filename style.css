@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -6,19 +11,27 @@ h4 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* h2 and h3 do not show up on the programming page as the sans-serif font, but shouldn't they, since I included them in the selector?*/
+/* Font styles aren't showing up on the programming page, but shouldn't they, since I included them in the selector?*/
 
 p,
 li {
   font-family: serif;
+  color: #444;
 }
-h1 {
-  color: red;
+h1,
+h2,
+h3 {
+  color: #28aab6;
 
   text-transform: uppercase;
-  line-height: 0.5;
+  line-height: 1;
+  margin-bottom: 10px;
+  background-color: #e6e6e6;
+  padding: 10px 2px;
 }
-
+h3 {
+  border-top: 5px solid #28aab6;
+}
 h4 {
   color: black;
   line-height: 0.5;
@@ -31,5 +44,58 @@ p {
 }
 
 li {
-  font-size: 20px;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.related-author {
+  font-size: 18 px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.no-bullet-points {
+  list-style: none;
+}
+header {
+  background-color: #e6e6e6;
+  padding: 10px;
+  border-top: 5px solid #28aab6;
+  margin-bottom: 30px;
+}
+
+aside {
+  background-color: #e6e6e6;
+
+  border-top: 5px solid #28aab6;
+  border-bottom: 5px solid #28aab6;
+  padding: 50px 0;
+}
+
+body {
+  background-color: ghostwhite;
+}
+
+ul {
+  margin-bottom: 30px;
+}
+a:link {
+  color: #28aab6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #28aab6;
+}
+a:hover {
+  color: #f7081c;
+  font-weight: bold;
+  text-decoration: underline #f7081c;
 }
