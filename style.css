@@ -6,8 +6,6 @@ h4 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* Font styles aren't showing up on the programming page, but shouldn't they, since I included them in the selector?*/
-
 nav li {
   display: inline;
   margin: 0 1em;
