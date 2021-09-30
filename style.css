@@ -26,7 +26,8 @@ h3 {
   background-color: #e6e6e6;
   padding: 10px 2px;
 }
-h2 {
+h2,
+h3 {
   border-top: 5px solid #28aab6;
 }
 h4 {
